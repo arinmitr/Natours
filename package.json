@@ -1,0 +1,59 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "description": "Learn Node JS Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development supervisor server.js",
+    "start:prod": "NODE_ENV=production supervisor server.js",
+    "debug": "NODE_ENV=development ndb server.js",
+    "debug:prod": "NODE_ENV=production ndb server.js"
+  },
+  "author": "Arin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "express-rate-limit": "^5.2.6",
+    "helmet": "^4.4.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.16",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.5.0",
+    "pug": "^3.0.2",
+    "requirejs": "^2.3.6",
+    "sharp": "^0.28.0",
+    "slugify": "^1.4.6",
+    "validator": "^13.5.2",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "mapbox-gl": "^2.1.1",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.2.1",
+    "supervisor": "^0.12.0"
+  }
+}
